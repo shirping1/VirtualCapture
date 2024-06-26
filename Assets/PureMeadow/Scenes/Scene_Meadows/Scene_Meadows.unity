@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 909426331}
-  m_IndirectSpecularColor: {r: 0.52901447, g: 0.5545014, b: 0.61218995, a: 1}
+  m_IndirectSpecularColor: {r: 0.5238859, g: 0.5454432, b: 0.58768433, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1170,8 +1170,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84907552}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04421511, y: -0.7547189, z: 0.051137336, w: 0.65255606}
-  m_LocalPosition: {x: -76.79894, y: 13.880707, z: 47.478374}
+  m_LocalRotation: {x: -0.07242303, y: -0.90959615, z: 0.36785734, w: -0.17908327}
+  m_LocalPosition: {x: -8.244739, y: 18.502926, z: 14.129345}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1265,10 +1265,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
+    - {fileID: 0}
     - {fileID: 11400000, guid: 7193f39fbbafa16429ec72630da956ef, type: 2}
+    - {fileID: 11400000, guid: c906f7d18de65b341a48fbb2e5d5531b, type: 2}
+    - {fileID: 11400000, guid: c0d0a97371c13f045b9f54b21e718e81, type: 2}
+    - {fileID: 11400000, guid: ecc54738b5d332f45ab83968b73bff52, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls: []
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1913705429}
+          m_TargetAssemblyTypeName: Butterfly, Assembly-CSharp
+          m_MethodName: triggerfly
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1913705429}
+          m_TargetAssemblyTypeName: Butterfly, Assembly-CSharp
+          m_MethodName: downFly
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1913705429}
+          m_TargetAssemblyTypeName: Butterfly, Assembly-CSharp
+          m_MethodName: upFly
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1913705429}
+          m_TargetAssemblyTypeName: Butterfly, Assembly-CSharp
+          m_MethodName: downFly
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &84907561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8027,7 +8087,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733067601}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03628203, y: -0.7470851, z: 0.040915888, w: 0.6624752}
+  m_LocalRotation: {x: 0.036282036, y: -0.7470851, z: 0.040915903, w: 0.6624752}
   m_LocalPosition: {x: -76.79894, y: 13.880707, z: 47.478374}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9994,13 +10054,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909426330}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2613932, y: 0.3050147, z: -0.08746154, w: 0.9115866}
+  m_LocalRotation: {x: 0.9372986, y: 0.04824238, z: -0.3136179, w: 0.1441803}
   m_LocalPosition: {x: 0, y: 30, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -328, y: -3203, z: 0}
+  m_LocalEulerAnglesHint: {x: -197.49, y: -3203, z: 0}
 --- !u!95 &909426333
 Animator:
   serializedVersion: 5
@@ -16750,7 +16810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608188222}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.004111649, y: 0.87200886, z: 0.0073258313, w: -0.48941806}
+  m_LocalRotation: {x: -0.0015991307, y: 0.9057506, z: -0.0034177273, w: -0.4237944}
   m_LocalPosition: {x: -5.41, y: 15.85, z: 10.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -20145,6 +20205,7 @@ GameObject:
   - component: {fileID: 1913705427}
   - component: {fileID: 1913705426}
   - component: {fileID: 1913705425}
+  - component: {fileID: 1913705429}
   m_Layer: 0
   m_Name: butterfly
   m_TagString: Untagged
@@ -20231,13 +20292,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913705424}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06966509, y: 0.007526835, z: -0.08877097, w: 0.99358433}
-  m_LocalPosition: {x: -20.65, y: 16.15, z: 1.51}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.6, y: 15.74, z: 1.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 8.035, y: 0.15, z: -10.2}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913705429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913705424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2106e54bfad27034fac78bea70f2f0ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  amplitude: 1
+  frequency: 1
 --- !u!1 &1916455497
 GameObject:
   m_ObjectHideFlags: 0
