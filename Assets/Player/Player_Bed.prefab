@@ -2195,6 +2195,7 @@ GameObject:
   - component: {fileID: 1223459354506008871}
   - component: {fileID: 1515932391057199813}
   - component: {fileID: 2056408900016003816}
+  - component: {fileID: 4152358447817482275}
   m_Layer: 0
   m_Name: Player_Bed
   m_TagString: Untagged
@@ -2985,6 +2986,25 @@ MonoBehaviour:
       icon: {fileID: 21300000, guid: 7d4064624ca60ed438f5fdaa5b4c099a, type: 3}
       model: {fileID: 804453223970235544}
   animator: {fileID: 1515932391057199813}
+--- !u!320 &4152358447817482275
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4141708218767599887}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a03093ef8b25ea44cb2e15d594271cdf, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 5309225353322131226, guid: a03093ef8b25ea44cb2e15d594271cdf, type: 2}
+    value: {fileID: 1515932391057199813}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &4190779040361457856
 GameObject:
   m_ObjectHideFlags: 0
