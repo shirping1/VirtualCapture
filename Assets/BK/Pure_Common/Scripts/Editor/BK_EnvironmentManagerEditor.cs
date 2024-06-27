@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(BK_EnvironmentManager))]
+namespace BKPureNature
+{
+    [CustomEditor(typeof(BK_EnvironmentManager))]
 public class BK_EnvironmentManagerEditor : Editor
 {
     private Editor materialEditor;
@@ -141,4 +143,5 @@ EditorGUILayout.EndVertical();
 
         serializedObject.ApplyModifiedProperties();
     }
+}
 }
